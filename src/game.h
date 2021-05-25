@@ -18,15 +18,22 @@ class Game {
  private:
   Snake snake;
   SDL_Point food;
-
+  SDL_Point obstacle;
+  SDL_Point d_score;
   std::random_device dev;
   std::mt19937 engine;
   std::uniform_int_distribution<int> random_w;
   std::uniform_int_distribution<int> random_h;
+  bool running{true};
 
   int score{0};
+  int new_x{0};
+  int new_y{0};
+  bool double_score {false};
 
   void PlaceFood();
+  void PlaceObstacle();
+  void PlaceScore();
   void Update();
 };
 
