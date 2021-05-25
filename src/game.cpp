@@ -96,7 +96,11 @@ void Game::PlaceScore(){
   }
 }
 void Game::Update() {
-  if (!snake.alive) return;
+  if (!snake.alive) {
+    std::cout<<"Game Over"<<"\n";
+    running = false;
+    return;}
+
   
   if (new_x == obstacle.x && new_y == obstacle.y){
     std::cout<<"Game Over"<<"\n";
