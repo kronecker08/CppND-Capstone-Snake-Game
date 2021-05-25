@@ -10,7 +10,12 @@ In this project, you can build your own C++ application or extend this Snake gam
 
 ## Overview and Instructions
 
-The Capstone Project extends the Snake game, where it gives the chance to user to score more points my eating the green block before the yellow and at the same time it increases the risk where if the snake eats the red block it dies.
+The Capstone Project extends the Snake game:
+1) It gives the chance to player to score more points my eating the green block before the yellow it gives 3 extra points.
+
+2) If the yellow block is eaten before the green one there are no extra points.
+
+3) It increases the risk where if the snake eats the red block it dies.
 
 <img src="snake_game.png">
 
