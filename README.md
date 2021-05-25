@@ -19,6 +19,41 @@ The Capstone Project extends the Snake game:
 
 <img src="snake_game.png">
 
+## Code Structure 
+
+<imd src="tree_snake.png">
+
+## Rubrics
+### Loops, Functions, I/O
+1) The project demonstrates an understanding of C++ functions and control structures.
+  a) Controller.cpp line 14 "while loop"
+  b) Game.cpp line 24, line 59, line 74, line 88,  "while loop"
+  c) snake.cpp line 73 "for loop"
+  d) functions in file snake.cpp, controller.cpp, game.cpp
+
+2) The project accepts user input and processes the input.
+  a) controller.cpp line 14 it read the input for moving the snake around.
+
+### Object Oriented Programming
+3) The project uses Object Oriented Programming techniques.
+  a) There are classes defined in file snake.cpp, controller.cpp, game.cpp and renderer.cpp
+
+4) Classes use appropriate access specifiers for class members.
+  a) There are private and public members in the file snake.cpp, controller.cpp, game.cpp and renderer.cpp
+
+5) Class constructors utilize member initialization lists.
+  a) The initialization of Game class in file game.cpp at line 5, of Renderer class in file renderer.cpp at line 5 and of Snake class in file snake.h at line 11.
+
+### Memory Management
+
+6) The project makes use of references in function declarations.
+  a) In file snake.cpp line 33 it take references and in file game.h line 13 it take references.
+  
+
+
+
+
+
 ## Dependencies for Running Locally
 * cmake >= 3.7
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
